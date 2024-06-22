@@ -7,7 +7,6 @@
   --light-blue-border: #5cb5f4;
   --color-sec: #db6400;
   --grey: #eee;
-  --green: green;
 }
 
 * {
@@ -26,11 +25,10 @@ body {
 
 .container {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 3rem auto;
   padding: 0 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 100vh;
 }
@@ -66,7 +64,7 @@ body {
 }
 
 .countries {
-  width: 60%;
+  width: 50%;
 }
 
 .country {
@@ -101,7 +99,6 @@ body {
   margin: 10px 0;
 }
 
-/* Counter styles */
 .counter-div {
   width: 42rem;
   border: 1px solid var(--light-blue-border);
@@ -113,35 +110,6 @@ body {
   box-shadow: 0 0 5px rgba(1, 54, 95, 0.9);
 }
 
-.counter-div > * {
+.counter-div>* {
   margin-bottom: 2rem;
-}
-
-.count {
-  font-size: 4rem;
-}
-
-.buttons button {
-  padding: 1rem;
-  margin: 0 5px;
-  font-size: 1.5rem;
-  color: var(--white);
-  font-weight: 700;
-  border: none;
-  outline: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-button.subtract {
-  background-color: var(--color-sec);
-}
-
-button.reset {
-  background-color: var(--grey);
-  color: var(--black);
-}
-
-button.add {
-  background-color: var(--green);
 }
